@@ -1,0 +1,36 @@
+frontend/
+  src/
+    api/
+      client.ts
+      authApi.ts
+      studentsApi.ts   (if you create separate API modules)
+    components/
+      layout/
+        Sidebar.tsx
+        DashboardLayout.tsx
+      ProtectedRoute.tsx
+    hooks/
+      use-auth.ts
+    pages/
+      auth/
+        LoginPage.tsx
+      admin/
+        Dashboard.tsx
+        students/
+          StudentList.tsx
+          StudentForm.tsx
+        ... other admin pages
+      teacher/
+        Dashboard.tsx
+        attendance/
+          TakeAttendance.tsx
+      student/
+        Dashboard.tsx
+      parent/
+        Dashboard.tsx
+    store/
+      authStore.ts
+    types/
+      index.ts
+    App.tsx
+    main.tsx
