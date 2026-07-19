@@ -1,0 +1,5 @@
+{
+  "email": "teacher@school.com",
+  "password": "secret",
+  "role": "teacher"  // optional, for multi-role selection
+}
